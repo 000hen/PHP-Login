@@ -1,18 +1,18 @@
 # Login System
 >Made by: 000hen <br/>
 >Version: 1 <br/>
->Copyright: 3ZH-Studio <br/>
+>Copyright&copy;3ZH-Studio <br/>
 
 This is a login system use PHP
 
-## How To Use
+## How To Use?
 
 First, add new databases in your MySQL server (Like this)
 ![db](/img/n1.png)
 
 Second, add user (password need encrypt with MD5)
 
-Next, change code in the "config.php"
+Next, change code in the "config.php".
 
 ```php
 $dbhost="localhost"; //填入資料庫位置
@@ -32,3 +32,7 @@ if (@$login == "1"){
 	header("location: //".$_SERVER['DOCUMENT_ROOT']."/admin/login.php?return=$url");
 }
 ```
+
+## !!Warning!!
+
+You Need To rename the folder To "admin",and must be placed first (root).
