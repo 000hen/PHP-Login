@@ -1,4 +1,9 @@
 <?php
+/*
+Name: PHP-Login
+By: 000hen
+Copyright©3ZH-Studio
+*/
 require_once($_SERVER['DOCUMENT_ROOT']."/admin/config.php");
 
 @$u=$_POST["u"];
