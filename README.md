@@ -22,7 +22,7 @@ $dbselect="login_sys"; //選擇資料庫
 $dbtable="login"; //填入資料"表"
 ```
 
-And, add others file you need add code:
+And finally, add others file you need add code:
 ```php
 require_once($_SERVER['DOCUMENT_ROOT'].'/admin/page/flf.php');
 
