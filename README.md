@@ -7,7 +7,7 @@ This is a login system use PHP
 
 ## How To Use
 
-First, add new databases in your MySQL server
+First, add new databases in your MySQL server (Like this)
 ![db](/img/n1.png)
 
 Second, add user (password need encrypt with MD5)
