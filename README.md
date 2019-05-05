@@ -36,4 +36,4 @@ if (@$login == "1"){
 
 ## !!Warning!!
 
-You Need To rename the folder To "admin",and must be placed first (root).
+You Need To rename the folder To "admin",and must be placed first (root folder).
